@@ -71,12 +71,12 @@ a {
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
 }
-a[href=""]:visited {
+a[href]:not([href=""]):visited {
   font-style: italic;
 }
-a[href=""]:hover {
+a[href]:not([href=""]):hover {
   font-style: underline;
 }
-a[href=""]:active {
-  color: var(--color-light-grey);
+a[href]:not([href=""]):active {
+  background-color: var(--color-light-grey);
 }
