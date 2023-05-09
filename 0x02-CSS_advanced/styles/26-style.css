@@ -365,7 +365,7 @@ footer {
   width: calc(10 * 1rem);
   height: calc(10 * 1rem);
 }
-.card-quote .card-testimonial cite {
+.card-testimonial .card-quote cite {
   display: block;
   padding-top: calc(1 * 1rem);
   color: var(--color-primary);
