@@ -456,7 +456,7 @@ footer {
   position: relative;
 }
 .card-testimonial .card-quote {
-  content: "";
+  content: "\201C";
   position: absolute;
   top: -4.5rem;
   left: -1rem;
