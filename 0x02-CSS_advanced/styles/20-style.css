@@ -288,7 +288,7 @@ section {
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
 }
-.row {
+.row::after {
   content: "";
   clear: both;
   display: table;
