@@ -362,8 +362,8 @@ footer {
 }
 .card-testimonial .card-avatar {
   border-radius: 50%;
-  width: calc(10 * 1vw);
-  height: calc(10 * 1vh);
+  width: calc(10 * 1rem);
+  height: calc(10 * 1rem);
 }
 .card-quote .card-testimonial cite {
   display: block;
