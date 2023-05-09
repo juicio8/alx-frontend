@@ -345,9 +345,9 @@ nav .nav-link::before {
   left: 0;
   background-color: var(--color-white);
   width: 0;
-  height: calc(20% * 1rem);
+  height: 20%;
 }
-.nav-item:hover nav .nav-link::before {
+nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
 }
